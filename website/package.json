@@ -36,7 +36,7 @@
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
     "imagemin-svgo": "8.0.0",
-    "marked": "0.7.0",
+    "marked": "0.8.2",
     "next": "9.5.2",
     "nuka-carousel": "4.7.1",
     "react": "16.14.0",
