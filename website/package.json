@@ -12,7 +12,7 @@
     "@hashicorp/react-button": "3.0.2",
     "@hashicorp/react-call-to-action": "0.2.8",
     "@hashicorp/react-case-study-slider": "3.0.0",
-    "@hashicorp/react-content": "5.2.1",
+    "@hashicorp/react-content": "5.2.4",
     "@hashicorp/react-docs-page": "6.3.1",
     "@hashicorp/react-docs-sidenav": "5.2.1",
     "@hashicorp/react-global-styles": "4.6.1",
