@@ -37,7 +37,7 @@
     "imagemin-optipng": "8.0.0",
     "imagemin-svgo": "8.0.0",
     "marked": "0.7.0",
-    "next": "9.5.2",
+    "next": "10.0.0",
     "nuka-carousel": "4.7.1",
     "react": "16.14.0",
     "react-device-detect": "1.14.0",
@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "dart-linkcheck": "2.0.15",
-    "husky": "4.3.0",
+    "husky": "4.3.7",
     "prettier": "2.1.2"
   },
   "husky": {
