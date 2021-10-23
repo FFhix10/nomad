@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - '@storybook/ember-cli-storybook > ember-cli-addon-docs-yuidoc > yuidocjs > yui > request > hawk':
+        patched: '2021-10-23T01:29:30.723Z'
+  'npm:http-signature:20150122':
+    - '@storybook/ember-cli-storybook > ember-cli-addon-docs-yuidoc > yuidocjs > yui > request > http-signature':
+        patched: '2021-10-23T01:29:30.723Z'
+  'npm:mime:20170907':
+    - '@storybook/ember-cli-storybook > ember-cli-addon-docs-yuidoc > yuidocjs > yui > request > form-data > mime':
+        patched: '2021-10-23T01:29:30.723Z'
+  'npm:minimatch:20160620':
+    - glob > minimatch:
+        patched: '2021-10-23T01:29:30.723Z'
+  'npm:request:20160119':
+    - '@storybook/ember-cli-storybook > ember-cli-addon-docs-yuidoc > yuidocjs > yui > request':
+        patched: '2021-10-23T01:29:30.723Z'
+  'npm:tunnel-agent:20170305':
+    - '@storybook/ember-cli-storybook > ember-cli-addon-docs-yuidoc > yuidocjs > yui > request > tunnel-agent':
+        patched: '2021-10-23T01:29:30.723Z'

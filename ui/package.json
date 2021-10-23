@@ -15,7 +15,9 @@
     "start": "./node_modules/ember-cli/bin/ember server",
     "build-storybook": "STORYBOOK=true ember build && build-storybook -s dist",
     "storybook": "STORYBOOK=true start-storybook -p 6006 -s dist",
-    "test": "./node_modules/ember-cli/bin/ember test"
+    "test": "./node_modules/ember-cli/bin/ember test",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -149,9 +151,11 @@
     ]
   },
   "dependencies": {
-    "lru_map": "^0.3.3"
+    "lru_map": "^0.3.3",
+    "@snyk/protect": "latest"
   },
   "resolutions": {
     "ivy-codemirror/codemirror": "^5.56.0"
-  }
+  },
+  "snyk": true
 }
