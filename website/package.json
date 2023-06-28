@@ -7,7 +7,7 @@
     "node": "12.x"
   },
   "dependencies": {
-    "@hashicorp/nextjs-scripts": "^13.2.0",
+    "@hashicorp/nextjs-scripts": "^19.0.3",
     "@hashicorp/react-alert-banner": "4.2.0",
     "@hashicorp/react-button": "3.0.2",
     "@hashicorp/react-call-to-action": "0.2.8",
@@ -37,7 +37,7 @@
     "imagemin-optipng": "8.0.0",
     "imagemin-svgo": "8.0.0",
     "marked": "0.7.0",
-    "next": "9.5.2",
+    "next": "13.4.7",
     "nuka-carousel": "4.7.1",
     "react": "16.14.0",
     "react-device-detect": "1.14.0",
