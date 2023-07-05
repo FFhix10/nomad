@@ -15,7 +15,6 @@ replace (
 )
 
 require (
-	cloud.google.com/go/storage v1.0.0 // indirect
 	github.com/Azure/go-autorest/autorest v0.11.4 // indirect
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.1 // indirect
 	github.com/LK4D4/joincontext v0.0.0-20171026170139-1724345da6d5
@@ -45,9 +44,9 @@ require (
 	github.com/fatih/color v1.9.0
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/fsouza/go-dockerclient v1.6.5
-	github.com/golang/protobuf v1.4.2
-	github.com/golang/snappy v0.0.1
-	github.com/google/go-cmp v0.4.0
+	github.com/golang/protobuf v1.5.2
+	github.com/golang/snappy v0.0.3
+	github.com/google/go-cmp v0.5.9
 	github.com/gorilla/websocket v1.4.2
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.1-0.20200228141219-3ce3d519df39
 	github.com/hashicorp/consul v1.7.8
@@ -115,30 +114,20 @@ require (
 	github.com/seccomp/libseccomp-golang v0.9.2-0.20200314001724-bdab42bd5128 // indirect
 	github.com/shirou/gopsutil v2.20.9+incompatible
 	github.com/skratchdot/open-golang v0.0.0-20160302144031-75fb7ed4208c
-	github.com/stretchr/objx v0.2.0 // indirect
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.8.1
 	github.com/syndtr/gocapability v0.0.0-20180916011248-d98352740cb2
 	github.com/zclconf/go-cty v1.4.1
 	github.com/zclconf/go-cty-yaml v1.0.2
-	go.opencensus.io v0.22.1-0.20190713072201-b4a14686f0a9 // indirect
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
-	golang.org/x/exp v0.0.0-20191030013958-a1ab85dbe136 // indirect
-	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f // indirect
-	golang.org/x/mod v0.3.0 // indirect
-	golang.org/x/net v0.0.0-20200602114024-627f9648deb9
-	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
-	golang.org/x/sys v0.0.0-20200728102440-3e129f6d46b1
-	golang.org/x/text v0.3.3-0.20200306154105-06d492aade88 // indirect
-	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
-	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
-	google.golang.org/api v0.13.0 // indirect
-	google.golang.org/genproto v0.0.0-20200302123026-7795fca6ccb1 // indirect
-	google.golang.org/grpc v1.27.1
+	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
+	golang.org/x/net v0.5.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.4.0
+	golang.org/x/time v0.1.0
+	google.golang.org/grpc v1.53.0
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/square/go-jose.v2 v2.4.1 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
 	gopkg.in/tomb.v2 v2.0.0-20140626144623-14b3d72120e8
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gotest.tools/v3 v3.0.2 // indirect
-	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
 )
