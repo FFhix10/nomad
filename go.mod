@@ -30,8 +30,8 @@ require (
 	github.com/container-storage-interface/spec v1.2.0-rc1.0.20191021210849-a33ece0a8a9f
 	github.com/containerd/go-cni v0.0.0-20190904155053-d20b7eebc7ee
 	github.com/containernetworking/cni v0.7.2-0.20190612152420-dc953e2fd91f
-	github.com/containernetworking/plugins v0.7.3-0.20190501191748-2d6d46d308b2
-	github.com/coreos/go-iptables v0.4.3-0.20190724151750-969b135e941d
+	github.com/containernetworking/plugins v0.8.6
+	github.com/coreos/go-iptables v0.4.5
 	github.com/coreos/go-semver v0.3.0
 	github.com/cyphar/filepath-securejoin v0.2.3-0.20190205144030-7efe413b52e1 // indirect
 	github.com/docker/cli v0.0.0-20200303215952-eb310fca4956
