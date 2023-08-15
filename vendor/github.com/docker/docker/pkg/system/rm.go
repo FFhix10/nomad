@@ -1,3 +1,6 @@
+//go:build !darwin && !windows
+// +build !darwin,!windows
+
 package system // import "github.com/docker/docker/pkg/system"
 
 import (
@@ -5,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/mount"
+	"github.com/moby/sys/mount"
 	"github.com/pkg/errors"
 )
 
