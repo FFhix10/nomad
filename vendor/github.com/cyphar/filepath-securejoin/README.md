@@ -1,6 +1,6 @@
 ## `filepath-securejoin` ##
 
-[![Build Status](https://travis-ci.org/cyphar/filepath-securejoin.svg?branch=master)](https://travis-ci.org/cyphar/filepath-securejoin)
+[![Build Status](https://github.com/cyphar/filepath-securejoin/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphar/filepath-securejoin/actions/workflows/ci.yml)
 
 An implementation of `SecureJoin`, a [candidate for inclusion in the Go
 standard library][go#20126]. The purpose of this function is to be a "secure"
@@ -29,8 +29,8 @@ func SecureJoin(root, unsafePath string) (string, error)
 This library **guarantees** the following:
 
 * If no error is set, the resulting string **must** be a child path of
-  `SecureJoin` and will not contain any symlink path components (they will all
-  be expanded).
+  `root` and will not contain any symlink path components (they will all be
+  expanded).
 
 * When expanding symlinks, all symlink path components **must** be resolved
   relative to the provided root. In particular, this can be considered a
